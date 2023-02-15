@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Muhammad Umar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/aos.css">
+
+	<link rel="stylesheet" href="css/ionicons.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="asset/styles.css">
+</head>
+
+<body>
+	<div id="m-umar-page">
+		<a href="#" class="js-m-umar-nav-toggle m-umar-nav-toggle"><i></i></a>
+		<aside id="m-umar-aside" role="complementary" class="js-fullheight text-center" style="overflow: hidden;">
+			<h1 id="umar-logo"><a href="/">Umar</a></h1>
+			<nav id="m-umar-main-menu" role="navigation">
+				<ul>
+					<li id="Home" onclick="setClass(this);" class="menu_list"><a
+							href="/">Home</a></li>
+					<li id="Project" onclick="setClass(this);" class="menu_list"><a href="#Projects">Projects</a></li>
+					<li id="Publications" onclick="setClass(this);" class="menu_list"><a
+							href="#Research">Research</a></li>
+					<li id="Skill" onclick="setClass(this);" class="menu_list"><a
+							href="#Skills">Skills</a></li>
+				</ul>
+			</nav>
+			<div style="height: 50%; margin-top: 30px;">
+				<img width="100%" height="100%" style="object-fit: contain;" class="img-responsive" src="images/rocket1.png" alt=""></img>
+			</div>
+			<div class="m-umar-footer">
+				<ul>
+					<li><a target="_blank" href="https://www.linkedin.com/in/muhammadumar559/"><i class="icon-linkedin"></i></a></li>
+					<li><a target="_blank" href="https://github.com/umar-senpai"><i class="icon-github"></i></a></li>
+				</ul>
+			</div>
+		</aside>
+		<div id="m-umar-main">
+			<div class="wrap-div js-fullheight" style="background-image: url(images/bgvidfinal.gif);"
+				data-stellar-background-ratio=".5">
+				<div class="overlay"></div>
+				<div class="js-fullheight d-flex justify-content-center align-items-center"
+					style="background-color: #62626200;">
+					<div class="col-md-8 text text-center">
+						<div class="img mb-8" style="background-image: url(images/umarpic.jpg);"></div>
+<!-- 						<div class="img mb-8" style="background-image: url(images/landscape.jpg);"></div> -->
+						<div class="desc">
+							<p class="top-subheading">Hello I'm</p>
+							<h1 class="mb-4">Muhammad Umar</h1>
+								<p class="mb-4 justify-text-center">
+									<b>I am an Erasmus Mundus Scholar and Master's student in Intelligent Field Robotic Systems (IFRoS).
+									The joint master program is taught at Universitat de Girona, Spain and Eötvös Loránd University, Budapest.
+									I am currently working as a Master's Thesis Student at Eurecat Technology Center, Barcelona on ground robotic systems.
+									My research topic is vision based reactive navigation for agricultural robotics applications. 
+									I am passionate about space robotics and my ultimate goal is to work with a space program 
+									and revolutionize the space industry by bringing innovation through a mix of robotics and AI</b>
+									<object data="Resume.pdf" type="application/pdf" style="text-align: center;">
+										<a target="_blank" href="asset/Umar_Resume.pdf"><h6 class="mb-4"><b>View Resume</b></h6></a>
+									</object>
+								</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+
+			<section id="hm-r1" class="ftco-section my-projs" style="padding-top: 2em;padding-bottom: 4em;">
+				<div class="container" id="Projects">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h1><b>Projects</b></h1>
+							<hr class="light">
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-4 col-xs-12">
+						<img class="img-responsive" src="images/scout.gif" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>Package Delivery Robot using AgileX Scout Robot</b></p>
+						</h4>
+						<div class="puba justify-text">
+							Created a Gazebo enviornment for the newly arrived AgileX's Scout robots at ELTE, Budapest. 
+							By integrating Xsens 600 INU module, we are able to get IMU and GPS data. 
+							This GPS and IMU data is fused with Laser Odometry and robot's odometry using SLAM for navigation purposes. 
+							The path-planning and motion control is done using the move_base package in ROS. 
+							We have also integrated road-segmentation in ROS and OpenCV for future applications where the robot should only navigate on roads.
+						</div>
+						<div class="half">
+							<p><a target="_blank" href="https://github.com/Umar-Senpai/scout_robot_navigation"
+									class="btn py-2">GitHub Repository <span class="ion-ios-arrow-forward"></span>
+								</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="images/main.gif" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>Frontier-Based Exploration using Hybrid-A* Planner</b></p>
+						</h4>
+						<div class="puba justify-text"> 
+							Implemented <b>Frontier-based exploration</b> and <b>Hybrid-A*</b> from scratch using LiDAR and Python in ROS-Noetic. The code was tested both in Gazebo Simulation and
+							real world on Turtlebot3 robots. Extended the traditional A* algorithm for non-holonomic vehicles by incorporating vehicle dynamics inspired by
+							Reeds-Shepp curves to implement Hybrid-A*.
+							
+						</div>
+						<div class="half">
+							<p><a target="_blank" href="https://github.com/Umar-Senpai/project_planning"
+									class="btn py-2">GitHub Repository
+									<span class="ion-ios-arrow-forward">
+										<a target="_blank" href="https://www.youtube.com/watch?v=ec1dh1WO4cQ"> <i
+												class="icon-youtube"></i></a></span>
+									
+								</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="images/slam3x.gif" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-6 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>EKF-SLAM using Corner Features</b></p>
+						</h4>
+						<div class="puba">
+							Implemented EKF-SLAM from scratch by detecting corners of a room using a 360◦ LiDAR in an unknown environment.
+							The corners are detected by taking intersection of line segments generated by the points of the Laser scan.
+						</div>
+						<div class="half">
+							<p><a href="https://github.com/Umar-Senpai/project_localization"
+								target="_blank" class="btn py-2">GitHub Repository
+								</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="images/perception.gif" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-6 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>Object Recognition using PyTorch in ROS</b></p>
+						</h4>
+						<div class="puba">
+							Implemented object detection using <b>transfer learning on COCO dataset</b> and analyzed its performance using Voxel51. 
+							The inference detector was later integrated in ROS for pick and place robot application
+						</div>
+						<div class="half">
+							<p><a href="https://github.com/Umar-Senpai/HOP-SSD-Inference"
+								target="_blank" class="btn py-2">GitHub Repository
+								</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="images/rollpitch_viz.gif" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>TRACK-E: Smartphone's IMU-Based Human Following Robot (Bachelor's Final Year Project)</b></p>
+						</h4>
+						<div class="puba">
+							Designed a robot capable of tracking and following a person through the IMU sensors of a smartphone. 
+							Used raw data of accelerometer & magnetometer, transferred over UDP, for distance and heading measurement.
+							Implemented tilt-compensation and dual PID controller in a Raspberry Pi to follow the person using the sensor data.
+						</div>
+						<div class="half">
+							<p><a target="_blank" href="http://fyp.twaseen.com/user.php?id=204"
+								target="_blank" class="btn py-2">Project Link
+								
+							</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="images/triangulation.png" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>Stereo Vision: Matching and Display</b></p>
+						</h4>
+						<div class="puba">
+							Implemented stereo matching techniques and 3D displays using Point Cloud Library (PCL). The following stereo matching algorithms
+							were implemented:
+							<ul>
+								<li>
+									Naive Stereo Matching
+								</li>
+								<li>
+									Dynamic Programming
+								</li>
+								<li>
+									OpenCV's StereoSGBM
+								</li>
+							</ul>
+						</div>
+						<div class="half">
+							<p><a target="_blank" href="https://github.com/Umar-Senpai/HW1_stereo_vision"
+								target="_blank" class="btn py-2">GitHub Repository
+
+								</a></p>
+						</div>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="images/widget.png" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>Image Filters using Point Cloud Library with QT5/VTK GUI</b></p>
+						</h4>
+						<div class="puba">
+							Implemented different image and upsampling filters. Also made a 3D display GUI using VTK and QT. The following filters
+							were implemented:
+							Bilateral Filter
+							<ul>
+								<li>
+									Bilateral Filter
+								</li>
+								<li>
+									Bilateral Median Filter
+								</li>
+								<li>
+									Joint Bilateral and Joint Bilateral Median Filter
+								</li>
+								<li>
+									Joint Bilateral Upsampling and Joint Bilateral Median Upsampling
+								</li>
+								<li>
+									Iterative Upsampling
+								</li>
+							</ul>
+						</div>
+						<div class="half">
+							<p><a target="_blank" href="https://github.com/Umar-Senpai/HW2_data_level_fusion_filters"
+								target="_blank" class="btn py-2">GitHub Repository
+								
+							</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="images/tricp.png" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>PointCloud Reconstruction using ICP and TrICP</b></p>
+						</h4>
+						<div class="puba">
+							Implemented Iterative Closest Point (ICP) and Trimmed ICP (TrICP) algorithm for point cloud reconstruction. The following algorithms
+							were implemented:
+							<ul>
+								<li>
+									Nearest Neighbour search (kd-trees using nanoflann)
+								</li>
+								<li>
+									Rotation Estimation (using SVD)
+								</li>
+								<li>
+									Iterative Closest Point (ICP)
+								</li>
+								<li>
+									Trimmed Iterative Closest Point (TrICP)
+								</li>
+							</ul>
+						</div>
+						<div class="half">
+							<p><a target="_blank" href="https://github.com/Umar-Senpai/PointCloud_Reconstruction"
+								target="_blank" class="btn py-2">GitHub Repository
+								
+							</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="images/segmentation.png" alt="">
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<h4 class="mb-4">
+							<p><b>Deep Learning Projects</b></p>
+						</h4>
+						<div class="puba">
+							<ul>
+								<li>
+									Using <b>PyTorch and Transfer Learning</b> trained an image classifier on fruits-360 dataset with VGG16
+								</li>
+								<li>
+									Fine-tuned <b>Mask R-CNN</b> on custom dataset (sunflowers) for segmentation.
+								</li>
+								<li>
+									Implemented <b>encoder architecture</b> and fine-tuned encoder-decoder on COCO image captioning dataset.
+								</li>
+							</ul>
+						</div>
+						<div class="half">
+							<p>
+								<a target="_blank" href="https://colab.research.google.com/drive/1rKvbQ_XSamQjWf6m5-Doo9lIBXxmCmiF?usp=sharing"
+								class="btn py-2">
+								Image Classifier Google Colab
+								</a> |
+								<a target="_blank" href="https://colab.research.google.com/drive/11Z0GP1Rs8NZJmLB893pUMWQuD_oTRCpi?usp=sharing"
+								class="btn py-2">
+								Segmentation Google Colab
+								</a> |
+								<a target="_blank" href="https://colab.research.google.com/drive/124WuhGDMKXp48kajQrkEPqbT80VzNElO?usp=sharing"
+								class="btn py-2">
+								Encoder-Decoder Google Colab
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="hm-r1" class="ftco-section my-projs" style="padding-top: 2em;padding-bottom: 4em;">
+			<div class="container" id="Research">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h1><b>Research Work</b></h1>
+						<hr class="light">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-xs-12">
+					<img class="img-responsive" src="images/fyp_diagram.png" alt="">
+				</div>
+				<div class="col-lg-8 col-sm-8 col-xs-12">
+					<div class="pubt"><b>Smartphone's IMU-Based Human Following Robot</b>
+					</div>
+					<div class="col-lg-8 col-sm-8 col-xs-12">
+						<div class="puba">
+							<b>M. Umar</b>, M. Ijaz, M. Naqvi, A. Ashraf
+							<div class="pubv">Department of Electrical Engineering, 
+								University of Engineering and Technology, Lahore
+							</div>
+							<div class="publ">
+								<ul>
+									<li><a
+										target="_blank" href="https://drive.google.com/file/d/1P1--Di3xf7JnSEQb4KgrTCMXoDU1YAU6/view?usp=sharing">Thesis Link</a>
+									</li>
+									<li><a
+										target="_blank" href="https://youtu.be/ixpH9fLk4QI">Video</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+			
+			<section id="hm-r3" class="ftco-section" style="padding-top: 0em;padding-bottom: 1em;">
+				<div class="container" id="Skills">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="blog-entry ftco-animate">
+								<h3 class="mb-4">
+								</h3>
+									<div class="container">
+										<div class="row">
+											<div class="col-lg-12 text-center">
+												<h2><b>Skills</b></h2>
+												<hr class="light">
+											</div>
+										</div>
+										<p style="text-align:left; line-height: 4em;">
+											<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
+													alt="linux" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a href="https://www.ros.org/" target="_blank" rel="noreferrer"><img
+												src="https://raw.githubusercontent.com/fkromer/awesome-ros2/master/ros_logo.svg?sanitize=true"
+												style="width: 3em;height: 3em;" alt="ROS">
+											</a>
+											<a href="https://gazebosim.org/home" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/fkromer/awesome-gazebo/master/gazebo_icon.svg"
+													alt="Gazebo" style="height: 3em;" /> 
+											</a>
+											<a href="http://wiki.ros.org/rviz" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/ros-visualization/rviz/noetic-devel/images/splash.png"
+													alt="RViz" style="height: 3em;" /> 
+											</a>
+											<a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+													alt="c" style="width: 3em;height: 3em;" /> 
+											</a>
+											
+											</a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+													alt="cplusplus" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a href="https://www.javascript.com/" target="_blank" rel="noreferrer"> <img
+												src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+												alt="javascript" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img
+												src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+												alt="typescript" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a
+												href="https://www.python.org" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+													alt="python" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+													alt="css3" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a
+												href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+													alt="html5" style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a
+												href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img
+													src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png"
+													alt="matlab" style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a
+												href="https://pointclouds.org/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/PointCloudLibrary/pcl/master/pcl.png"
+													alt="PCL" style="width: 5em;height: 3em;" /> 
+											</a> 
+											<a
+												href="https://www.qt.io/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/qt/qt-original.svg"
+													alt="qt" style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a
+												href="https://vtk.org/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/Kitware/VTK/master/vtkLogo.ico"
+													alt="VTK" style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img
+													src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv"
+													style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a
+												href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img
+													src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
+													alt="tensorflow" style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg"
+													alt="pytorch" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"
+													alt="docker" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a
+												href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img
+													src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"
+													style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a
+												href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react"
+													style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a
+												href="https://redux.js.org/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux"
+													style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a
+												href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img
+													src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" alt="nextjs"
+													style="width: 3em;height: 3em;" /> 
+											</a> 
+											<a href="https://postman.com"
+												target="_blank" rel="noreferrer"> <img
+													src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+													alt="postman" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a
+												href="https://www.microsoft.com/en-us/sql-server" target="_blank"
+												rel="noreferrer"> <img
+													src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg"
+													alt="mssql" style="width: 3em;height: 3em;" /> 
+											</a>
+											<a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img
+													src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino"
+													style="width: 3em;height: 3em;" /> 
+											</a>
+										</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<section>
+				<div class="container" id="Resume">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="blog-entry ftco-animate">
+								<p>
+									<object data="Resume.pdf" type="application/pdf">
+										<a target="_blank" href="asset/Umar_Resume.pdf">View Resume</a>
+									</object>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer class="ftco-footer ftco-bg-dark ftco-section">
+		<div class="container px-md-5">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2"></h2>
+						<ul class="list-unstyled categories">
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md" id="contact">
+					<div class="ftco-footer-widget mb-4">
+						<div class="block-23 mb-3">
+							<ul>
+								<li><a href="#"><span class="icon icon-envelope"></span><span
+											href="mailto:muhammadumar559@gmail.com"
+											class="text">muhammadumar559@gmail.com</span></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+	</div>
+	</div>
+
+
+	</div>
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/aos.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+	<script src="js/jquery.timepicker.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
