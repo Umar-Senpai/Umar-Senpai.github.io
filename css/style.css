@@ -43,10 +43,12 @@
 html {
   font-family: sans-serif;
   line-height: 1.15;
+  scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+ }
 
 @-ms-viewport {
   width: device-width; }
@@ -378,6 +380,13 @@ mark,
   display: inline-block; }
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem; }
+
+.text-size {
+  font-size: 18px;
+}
+@media (max-width: 576px) {
+  .text-size {
+    font-size: 14px; } }
 
 .initialism {
   font-size: 90%;
@@ -7283,7 +7292,7 @@ body {
       -o-transform: translateX(0);
       transform: translateX(0);
       width: 270px;
-      background: #fff;
+      background: rgb(30, 30, 39);
       z-index: 999;
       position: fixed; }
     body.offcanvas #m-umar-main, body.offcanvas .m-umar-nav-toggle {
